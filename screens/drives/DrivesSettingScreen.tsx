@@ -1,7 +1,7 @@
 import React, {ReactElement} from 'react';
 import {View, Text, Button} from 'react-native';
 
-function SettingsScreen({navigation}: {navigation: any}): ReactElement {
+function DrivesSettingScreen({navigation}: {navigation: any}): ReactElement {
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
@@ -21,4 +21,4 @@ function SettingsScreen({navigation}: {navigation: any}): ReactElement {
   );
 }
 
-export default SettingsScreen;
+export default DrivesSettingScreen;

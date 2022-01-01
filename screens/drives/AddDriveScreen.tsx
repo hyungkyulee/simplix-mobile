@@ -1,14 +1,14 @@
 import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 
-const AddTripScreen = (props: any) => {
+const AddDriveScreen = (props: any) => {
   return (
     <View>
-      <Text>AddTrip Screen</Text>
-      <Text>AddTrip Screen</Text>
-      <Text>AddTrip Screen</Text>
-      <Text>AddTrip Screen</Text>
-      <Text>AddTrip Screen</Text>
+      <Text>AddDrive Screen</Text>
+      <Text>AddDrive Screen</Text>
+      <Text>AddDrive Screen</Text>
+      <Text>AddDrive Screen</Text>
+      <Text>AddDrive Screen</Text>
       <TouchableOpacity
         {...props}
         onPress={() => props.navigation.navigate('Details')}>
@@ -18,4 +18,4 @@ const AddTripScreen = (props: any) => {
   );
 };
 
-export default AddTripScreen;
+export default AddDriveScreen;
